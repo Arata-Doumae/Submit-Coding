@@ -1,0 +1,89 @@
+body{
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+#target{
+    width: auto;
+    background-color: cyan;
+    height: 40px;
+    padding: 20px;
+    line-height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../img/city.jpg");
+}
+
+h2.title{
+    font-size: 50px;
+    text-align: center;
+    color: purple;
+    text-decoration:underline;
+    text-decoration-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(40px);
+    transition: all 1s;
+}
+
+h2.title.is-show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+div.main{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 5px;
+    content: "\A" ;
+	  white-space: pre;
+    
+}
+
+h2.feedback{
+    font-size: 35px;
+    text-align: center;
+    color: rebeccapurple;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
+
+
+a.btn{
+  font-size: 1.6rem;
+  font-weight: 700;
+  position: relative;
+  padding: 1rem 3rem ;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
