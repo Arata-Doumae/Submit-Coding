@@ -26,3 +26,4 @@ const showElementAnimation = () => {
   showElementAnimation();
   window.addEventListener('scroll', showElementAnimation);
 
+  
